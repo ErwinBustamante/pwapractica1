@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+#header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#name {
+    font-size: 36px;
+}
+
+#main {
+    margin: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+.move-up {
+    animation: moveUp 1s forwards;
+}
+
+@keyframes moveUp {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-20px);
+    }
+}
+
+#about, #education, #experience {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #3498db;
+    border-radius: 5px;
+}
+
+
+

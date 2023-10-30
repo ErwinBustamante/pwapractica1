@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    text-align: center;
+}
+
+#title {
+    font-size: 48px; /* Tamaño más grande */
+    font-weight: bold;
+    color: #000000; /* Color de texto celeste */
+    padding: 10px; /* Espaciado para mejorar la apariencia */
+}
+
+.box {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    line-height: 150px;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: #e74c3c;
+}
+
+
+
+
+
