@@ -14,10 +14,10 @@ body {
 }
 
 #title {
-    font-size: 48px; /* Tamaño más grande */
+    font-size: 48px; 
     font-weight: bold;
-    color: #000000; /* Color de texto celeste */
-    padding: 10px; /* Espaciado para mejorar la apariencia */
+    color: #000000; 
+    padding: 10px; 
 }
 
 .box {
